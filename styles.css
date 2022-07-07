@@ -1,14 +1,42 @@
+body {
+    background-color: black;
+}
+
 div {
     border: 1px solid red;
 }
 
 header {
-    border: 1px solid red;
-    padding: 16px;
+    background-color: #1f2937;
     display: flex;
+    margin: 160px;
+    margin-top: -8px;
+}
+
+h6 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#left-header {#
+    margin: 0px;
+    margin-right: 40px;
+    flex: 1;
 }
 
 #right-header {
     text-align: right;
+    margin: 0px;
+    margin-left: 40px;
     flex: 1;
 }
