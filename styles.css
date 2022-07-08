@@ -1,5 +1,4 @@
 body {
-    background-color: black;
 }
 
 div {
@@ -108,4 +107,44 @@ p {
     margin: auto;
     margin-right: -80px;
 }
+
+/* The style for the main info section of the page is defined below this line*/
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+#maininfo {
+    display: flex;
+    padding: 20px 400px;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#maininfo figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #1f2937;
+}
+
+#maininfo img {
+    border: 6px solid #3882f6;
+    border-radius: 40px;
+    text-align: center;
+    height: 240px;
+    width: 240px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+
 
