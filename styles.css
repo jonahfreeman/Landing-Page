@@ -3,24 +3,68 @@ body {
 }
 
 div {
-    border: 1px solid red;
 }
 
-header {
+/* Top defines the the header section with the logo and the links */
+
+#top {
     background-color: #1f2937;
     display: flex;
-    margin: 160px;
-    margin-top: -8px;
+    margin: -8px; 
+    padding: 10px 200px 0px 200px;
+
+}
+
+#links {
+    display: flex;
+    height: 20px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#links a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#top div:first-child {
+    margin: auto;
+    margin-left: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Main defines the main part of the header section, including the h1, text, sign up button and an image */
+
+#main {
+    background-color: #1f2937;
+    display: flex;
+    padding: 20px 200px 0px 200px;
+    margin: 6px -8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#left-header {
+    flex: 1;
+    padding-top: 80px;
 }
 
 h6 {
+    margin: auto;
+    margin: 0px auto 0px 0px;
     font-size: 24px;
     color: #f9faf8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
+    margin-top: 0px;
     font-size: 48px;
     color: #f9faf8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
 
 p {
@@ -28,15 +72,32 @@ p {
     color: #e5e7eb;
 }
 
-#left-header {#
-    margin: 0px;
-    margin-right: 40px;
+#signup1 {
+    display: flex;
+    height: 40px;
+    width: 200px;
     flex: 1;
+    text-align: center;
+    padding: 10px;
 }
 
 #right-header {
-    text-align: right;
     margin: 0px;
-    margin-left: 40px;
     flex: 1;
+    justify-content: center;
+    padding: 80px;
 }
+
+#mainimg {
+    display: flex;
+    height: 400px;
+    width: 800px;
+    background-color: bisque;
+    text-align: center;
+    padding: 40px;
+    flex: 1;
+    justify-content: center;
+    margin: auto;
+    margin-right: -80px;
+}
+
