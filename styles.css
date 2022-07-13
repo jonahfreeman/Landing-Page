@@ -1,9 +1,6 @@
+
 body {
 }
-
-div {
-}
-
 /* Top defines the the header section with the logo and the links */
 
 #top {
@@ -220,4 +217,13 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color:#f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    color:#f9faf8;
+    font-size: 36px;
+    padding: 40px;
+    text-align: center;
+    margin: 0px -8px -8px -8px;
 }
